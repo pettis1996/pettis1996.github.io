@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paraskevas C. Pettis</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/custom.css">
+</head>
+
+<body>
+    <nav class="navbar shadow bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand p-2" href="./index.html">
+                <div class="btn btn-outline-dark p-3">
+                    <strong>
+                        Pettis Dev.
+                    </strong>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Main Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">My Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact Me</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Websites
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="https://github.com/pettis1996">GitHub</a></li>
+                                <li><a class="dropdown-item" href="https://www.linkedin.com/in/paraskevas-pettis-112024237/">Linkedin</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Download CV [pdf]</a></li>
+                            </ul>
+                        </li>
+                        <br>
+                        <li>
+                            <div class="btn btn-outline-purple w-100">
+                                Download CV
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <br><br>
+    <div class="container shadow p-5 mb-4 rounded-5">
+        <div class="row">
+            <div class="h5">
+                Interested in my work or have a question for me? 
+            </div>
+            <div class="h3">
+                <br>
+                Let's talk about it!
+                <br>
+                <hr>
+            </div>
+            <div class="p" align="justify">
+                Fill in the form below with your personal contact details and your message, to get in contact with me. <br>
+                If you encounter any problems or errors with the contact form, don't hesitate to email me directly on <a class="text-decoration-none text-bg-purple" href="mailto:pettis_paris@hotmail.com">My Email Address</a>, <br>
+                and I will make sure to get back to you as soon as possible!
+                <br><br>
+            </div>
+            
+            <form>
+                <div class="mb-3">
+                  <label for="fullnameInput" class="form-label fw-bold">Full Name</label>
+                  <input type="text" class="form-control" id="fullnameInput">
+                </div>
+                <div class="mb-3">
+                  <label for="emailInput" class="form-label fw-bold">Email Address</label>
+                  <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="mb-3">
+                    <label for="phoneInput" class="form-label fw-bold">Peronal Phone Number</label>
+                    <input type="text" class="form-control" id="phoneInput" aria-describedby="phoneHelp">
+                    <small id="phoneInput" class="form-text">Please include country extension. [00357] or [+357]</small>
+                </div>
+                <div class="mb-3">
+                    <label for="messageInput" class="form-label fw-bold">Your Message</label>
+                    <textarea rows="10" cols="50" class="form-control" id="messageInput"></textarea>
+                </div>
+                <button type="submit" class="btn btn-purple p-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                        <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
+                    </svg>
+                    <small class="ms-2">
+                        Send
+                    </small>
+                </button>
+              </form>
+        </div>
+
+        <script src="./js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
