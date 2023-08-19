@@ -5,6 +5,10 @@ body {
     font-family: 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
+::selection{
+    color: #fff;
+    background: #BEADFA;
+}
 ul {
     padding:0;
     list-style: none;
@@ -87,4 +91,7 @@ ul.social-icons {
 }
 .fa-github:hover {
     background-color: #5a32a3;
+}
+.about-me-avatar {
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
 }

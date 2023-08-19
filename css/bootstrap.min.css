@@ -6622,6 +6622,10 @@ fieldset:disabled .btn {
     color: #fff !important;
     background-color: #845EC2 !important;
 }
+.text-bg-purple-light {
+  color: #fff !important;
+  background-color: #BEADFA !important;
+}
 .text-bg-primary {
   color: #fff !important;
   background-color: RGBA(13, 110, 253, var(--bs-bg-opacity, 1)) !important;
@@ -7776,6 +7780,10 @@ fieldset:disabled .btn {
 .text-white {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+.text-purple {
+  --bs-text-opacity: 1;
+  color: #845EC2 !important;
 }
 .text-body {
   --bs-text-opacity: 1;
